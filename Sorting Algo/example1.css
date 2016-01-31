@@ -1,0 +1,63 @@
+
+
+ #h1{
+ 	
+	font-weight: bold;
+	font-size: 40px;
+	color: red;
+	text-decoration: underline;
+	text-align: center;
+	font-family: Helvetica;
+    
+	
+}
+
+.Whole {
+	 margin: auto;
+     width: 1200px;
+}
+
+.Content{
+	
+	 
+	 
+}
+
+hr{
+    background-color: black;
+    size:30;
+    height: 3px;
+}
+
+.dropdown{
+	color: purple;
+	font-style: italic;
+}
+
+.Image{
+	
+	
+	
+}
+
+a:hover {
+	font-size: 25px;
+}
+
+.sidebar{
+	float: right;
+	background-color: #FF6633;
+	height: 800px;
+	width: 380px;
+	padding-left: 20px;
+	padding-top: 30px;
+	
+}
+
+.list{
+	color: black;
+}
+
+.footer{
+	color: purple;
+}

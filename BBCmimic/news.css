@@ -1,0 +1,469 @@
+
+body{
+	margin:0;
+	font-family: arial,helvetica,sans-serif;
+}
+
+#topbar{
+	background-color: #7A0000;
+	width: 100%;
+	height:40px;
+	color: white;
+}
+
+.fixedwidth{
+       width:1050px;
+       margin:0 auto;
+         
+}
+
+#logo {
+
+	padding-top: 5px;
+	float:left;
+	border-right: 1px solid  #990000;
+	padding-right: 10px;
+
+}
+
+#signin {
+	font-weight: bold;
+	padding: 7px 80px 13px 20px;
+	font-size: 0.75em;
+	border-right:1px solid #990000 ;
+	float:left;
+	
+}
+
+#signin img {
+	position: relative;
+	top: 3px;
+	left: 3px;
+	right: 10px;
+}
+
+
+
+#topmenu{
+	float:left ;
+}
+
+#topmenu ul {
+	margin: 0px;
+	padding:0;
+
+}
+
+#topmenu li {
+	float:left;
+	list-style: none;
+	font-weight: bold;
+	font-size: 0.75em;
+	border-right:1px solid #990000;
+	height: 100%;
+	padding: 10px 20px 15px 20px;
+}
+
+#searchbar{
+	float:left;
+	padding: 7px 0 0 10px;
+}
+
+#searchbar input{
+	height:19px;
+	width: 150px;
+	border: none;
+	font-size:10px;
+	padding-left:10px;
+	background-image: url("/Users/ankitadash/Desktop/My Websites/IMAGES/bbc/magnify.png " );
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+.break{
+	clear:both;
+}
+
+#newsbar{
+	background-color: #990000;
+	width: 100%;
+	height:90px;
+	color: white;
+}
+
+#newsbar p{
+	margin:0;
+	padding: 0;
+	padding-top:10px;
+	padding-left:10px;
+	float:left;
+}
+
+#newsheader{
+	font-size:3em;
+
+
+}
+
+#uk{
+	font-size: 0.7em;
+	padding-left: 10px;
+}
+
+#rss{
+
+	float: right;
+	margin-top:40px;
+	font-size:1em;
+}
+
+#rss img{
+	height:16px;
+}
+
+#topicmenu{
+  
+}
+
+#topicmenu ul{
+	background-color: #3E0C0D;
+	padding:5px 0 0 5px;
+	margin:0;
+	height:20px;
+}
+
+#topicmenu li{
+	list-style: none;
+	font-size:0.8em;
+	padding:0 7px 0 7px;
+	border-right:1px solid #990000;
+	float:left;
+}
+
+.selected{
+	background-color: #EDEDED;
+	color:#666666;
+	height:17px;
+	position:relative;
+	top: -4px;
+	padding-top:5px   !important;
+}
+
+
+#content{
+	width: 100%;
+	color: #535353;
+	font-size: 0.7em;
+}
+
+.date{
+	font-weight: bold;
+}
+
+h1{
+	color:#1F4F82;
+	font-size: 2.7em;
+}
+
+.headlineimage{
+	float:left;
+	width:280px;
+	height:180px;
+
+}
+
+.newsitem{
+    position: relative;
+    left:10px;
+    top: -15px;	
+    width: 250px;
+    float:left;
+	font-size: 1.1em;
+}
+
+.newsitem a{
+
+	text-decoration: none;
+
+}
+ 
+ .newsitem a:hover{
+ 	text-decoration: underline;
+
+ }
+
+ .video{
+ 	background-image: url("/Users/ankitadash/Desktop/My Websites/IMAGES/bbc/trianglebullet.png " );
+    background-repeat: no-repeat;
+	background-position: left center;
+	padding-left:17px;
+ }
+
+ .audio{
+ 	background-image: url("/Users/ankitadash/Desktop/My Websites/IMAGES/bbc/audiobullet.png " );
+    background-repeat: no-repeat;
+	background-position: left center;
+	padding-left:27px;
+ }
+
+ #watchlisten{
+ 	background-color: #EEEEEE;
+ 	float:right;
+ 	width:350px;
+ 	height:310px;
+ 	position: relative;
+ 	top:-80px;
+
+ }
+
+
+ h2{
+ 	color: #505050;
+ 	margin: 10px 0 10px 10px;
+ 	font-size: 1.8em;
+ }
+
+ .t1{
+ 	float:left;
+
+ }
+
+ #wllogo img{
+ 	float: right;
+    position: relative;
+    left:-10px;
+    top: -100px;
+
+ }
+
+
+
+ #bottombar{
+	background-color:#484848 ;
+	width: 100%;	
+	height:280px;
+	color: white;
+	position:relative;
+	top: 580px;
+}
+
+
+h3 {
+
+	font-size: 1.5em;
+	float:right;
+	position:relative;
+	left: -600px;
+	top: -200px;
+
+}
+
+
+#firstlist ul {
+   
+   float: left;
+   list-style-type:none;
+   text-decoration: none;
+   position:relative;
+   top: -140px;  
+   
+
+
+}
+
+
+#firstlist li {
+	font-size:0.9em;
+	font-weight: bold;
+	padding: 5px 0 10px 0;
+	
+}
+
+
+#firstlist a {
+	color: white;
+	text-decoration: none;
+}
+
+#firstlist a:hover{
+ 	text-decoration: underline;
+}
+
+#secondlist ul {
+  float:left;
+   text-decoration: none;
+   position:relative;
+   top: -140px;
+   left: 150px;
+   list-style-type:none;
+   border-left: 1px solid  #707070; 
+   line-height: 15px;
+
+ }
+
+
+#secondlist li {
+	font-size:0.9em;
+	font-weight: bold;
+	padding: 5px 0 10px 0;
+	
+}
+
+
+#secondlist a {
+	color: white;
+	text-decoration:none;
+}
+
+#secondlist a:hover{
+ 	text-decoration: underline;
+}
+
+
+#thirdlist ul {
+  float:left;
+   text-decoration: none;
+   position:relative;
+   top: -140px;
+   left: 300px;
+   list-style-type:none;
+   border-left: 1px solid  #707070; 
+   line-height: 15px;
+
+ }
+
+
+#thirdlist li {
+	font-size:0.9em;
+	font-weight: bold;
+	padding: 5px 0 10px 0;
+	
+}
+
+
+#thirdlist a {
+	color: white;
+	text-decoration:none;
+}
+
+#thirdlist a:hover{
+ 	text-decoration: underline;
+}
+
+
+#fourthlist ul {
+  float:left;
+   text-decoration: none;
+   position:relative;
+   top: -140px;
+   left: 450px;
+   list-style-type:none;
+   border-left: 1px solid  #707070; 
+   line-height: 15px;
+
+ }
+
+
+#fourthlist li {
+	font-size:0.9em;
+	font-weight: bold;
+	padding: 5px 0 10px 0;
+	
+}
+
+
+#fourthlist a {
+	color: white;
+	text-decoration: none;
+}
+
+#fourthlist a:hover{
+ 	text-decoration: underline;
+}
+
+#fifthlist ul {
+   float:left;
+   text-decoration: none;
+   position:relative;
+   top: -140px;
+   left: 600px;
+   list-style-type:none;
+   border-left: 1px solid  #707070; 
+   line-height: 15px;
+
+
+ }
+
+
+#fifthlist li {
+	font-size:0.9em;
+	font-weight: bold;
+	padding: 5px 0 10px 0;
+	
+}
+
+
+#fifthlist a {
+	color: white;
+	text-decoration: none;
+}
+
+#fifthlist a:hover{
+ 	text-decoration: underline;
+}
+
+hr {
+	
+    color: blue;
+
+ }
+
+ #sixthlist ul {
+ 	list-style-type:none;
+ 	padding:0;
+ 	padding-top: 18px;
+ 	float:left;
+ 	margin:0;
+ 	position:relative;
+ 	top: -100px;
+ 	left:-420px;
+ 	
+ }
+
+ #sixthlist li {
+ 	display:inline;
+ 	font-size: 0.8em;
+ 	padding: 0 7px 0 -10px;
+ 	margin-right: 7px;
+ 	font-weight: none;
+
+ }
+
+
+#sixthlist a {
+	color: white;
+	text-decoration:none;
+
+}
+
+#sixthlist a:hover{
+ 	text-decoration: underline;
+}
+
+.footer{
+	size: 2.3em;
+	font-weight: bold;
+}
+
+.plang {
+
+	
+    position:relative;
+	top: -120px;
+	left: 20px;
+	width: 160%;
+
+
+}
+
+
